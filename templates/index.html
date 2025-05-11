@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violência Urbana e Segurança Pública</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Para gráficos -->
+    <script src="/static/js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Violência Urbana e Segurança Pública</h1>
+
+        <!-- Formulário de Filtro -->
+        <form id="filterForm">
+            <label for="regiao">Região:</label>
+            <select id="regiao" name="regiao">
+                <option value="">Selecione</option>
+                <option value="REGIÃO METROPOLITANA">REGIÃO METROPOLITANA</option>
+                <option value="AGRESTE">AGRESTE</option>
+                <option value="SERTÃO">SERTÃO</option>
+            </select>
+
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo">
+                <option value="">Selecione</option>
+                <option value="MASCULINO">Masculino</option>
+                <option value="FEMININO">Feminino</option>
+            </select>
+
+            <button type="submit">Filtrar</button>
+        </form>
+
+        <!-- Tabela para exibir os dados -->
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Município</th>
+                    <th>Região</th>
+                    <th>Sexo</th>
+                    <th>Natureza Jurídica</th>
+                    <th>Data</th>
+                    <th>Idade</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</body>
+</html>
