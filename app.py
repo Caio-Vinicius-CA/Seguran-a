@@ -1,11 +1,15 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 import pandas as pd
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app, resources={r"/dados*": {"origins": "*"}})
+CORS(app)
 
 df = pd.read_csv("dados/dados_limpos.csv")
+
+@app.route('/')
+def home():
+    return render_template('index.html')
 
 @app.route('/dados', methods=['GET'])
 def filtrar_dados():
