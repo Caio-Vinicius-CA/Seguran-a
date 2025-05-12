@@ -40,29 +40,6 @@ Abra seu navegador e acesse:
 http://127.0.0.1:5000
 ```
 
-## Como Contribuir
-
-1. Faça o **fork** deste repositório.
-2. Crie uma nova **branch** para suas mudanças:
-
-```bash
-git checkout -b minha-contribuicao
-```
-
-3. Faça as alterações e **commit** suas mudanças:
-
-```bash
-git commit -m "Descrição das alterações"
-```
-
-4. **Push** para o repositório:
-
-```bash
-git push origin minha-contribuicao
-```
-
-5. Abra um **Pull Request**.
-
 ## Licença
 
 Este projeto está licenciado sob a **MIT License** - consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
