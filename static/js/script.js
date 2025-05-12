@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const regiao = document.getElementById('regiao').value;
         const sexo = document.getElementById('sexo').value;
         
-        let url = 'http://127.0.0.1:5000/dados';
+        let url = 'https://seguran-a.onrender.com';
         let query = [];
         if (regiao) query.push(`regiao=${encodeURIComponent(regiao)}`);
         if (sexo) query.push(`sexo=${encodeURIComponent(sexo)}`);
