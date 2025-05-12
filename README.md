@@ -12,7 +12,7 @@ O sistema foi desenvolvido utilizando **Flask**, **HTML**, **CSS** e **JavaScrip
 - **Flask**: Framework web para desenvolvimento da aplicação.
 - **HTML/CSS**: Para estruturação e estilização da interface.
 - **JavaScript**: Para funcionalidades dinâmicas e interatividade.
-- **Pandas**
+- **Pandas**: Biblioteca do Python para manipulação de dados.
 
 ## Como Rodar o Projeto
 
@@ -37,6 +37,7 @@ Abra seu navegador e acesse:
 
 ```
 http://127.0.0.1:5000
+http://127.0.0.1:5000/dados
 ```
 
 ## Licença
