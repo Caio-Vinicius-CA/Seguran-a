@@ -1,4 +1,4 @@
-// Função para buscar dados com base nos filtros
+// Buscar dados com base nos filtros
 document.addEventListener('DOMContentLoaded', function () {
     async function fetchData() {
         const regiao = document.getElementById('regiao').value;
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const response = await fetch(url);
             const data = await response.json();
 
-            console.log("Dados recebidos do backend:", data);  // 👈 Adicione esta linha
+            console.log("Dados recebidos do backend:", data);
             displayData(data);
         } catch (error) {
             console.error("Erro ao buscar os dados:", error);
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 
-    // Função para exibir os dados na tabela
+    // Exibir dados na tabela
     function displayData(data) {
         const tableBody = document.getElementById('dataTable').getElementsByTagName('tbody')[0];
 
@@ -37,12 +37,12 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Evento de submit do formulário
+    // Submit do formulário
     document.getElementById('filterForm').addEventListener('submit', function (e) {
         e.preventDefault();
         fetchData();
     });
 
-    // Chama a função fetchData ao carregar a página
+    // Chama a função fetchData
     fetchData();
 });
