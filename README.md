@@ -12,8 +12,7 @@ O sistema foi desenvolvido utilizando **Flask**, **HTML**, **CSS** e **JavaScrip
 - **Flask**: Framework web para desenvolvimento da aplicação.
 - **HTML/CSS**: Para estruturação e estilização da interface.
 - **JavaScript**: Para funcionalidades dinâmicas e interatividade.
-- **Pandas/NumPy** (se estiver usando para manipulação de dados)
-- **Jinja2**: Template engine do Flask (se aplicável).
+- **Pandas**
 
 ## Como Rodar o Projeto
 
@@ -46,4 +45,4 @@ Este projeto está licenciado sob a **MIT License** - consulte o arquivo [LICENS
 
 ## Contato
 
-Se você tiver dúvidas ou sugestões, entre em contato através do e-mail: [seu-email@example.com].
+Se você tiver dúvidas ou sugestões, entre em contato através do e-mail: [amaralvinicaio.2003@gmail.com].
