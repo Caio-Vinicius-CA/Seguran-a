@@ -25,7 +25,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // Função para exibir os dados na tabela
     function displayData(data) {
         const tableBody = document.getElementById('dataTable').getElementsByTagName('tbody')[0];
-        tableBody.innerHTML = ''; // Limpa a tabela antes de adicionar novos dados
 
         data.forEach(item => {
             const row = tableBody.insertRow();
