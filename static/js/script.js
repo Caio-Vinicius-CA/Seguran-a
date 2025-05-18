@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const sexo = document.getElementById('sexo').value;
         
         let url = 'https://seguran-a.onrender.com';
+        
         let query = [];
         if (regiao) query.push(`regiao=${encodeURIComponent(regiao)}`);
         if (sexo) query.push(`sexo=${encodeURIComponent(sexo)}`);
