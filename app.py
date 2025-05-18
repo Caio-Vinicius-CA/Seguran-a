@@ -11,7 +11,7 @@ df = pd.read_csv("dados/dados_limpos.csv")
 def home():
     return render_template('index.html')
 
-@app.route('/dados', methods=['GET'])
+@app.route('/dados', methods=['POST','GET'])
 def filtrar_dados():
     filtro = df.copy()
 
